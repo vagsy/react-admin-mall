@@ -2055,11 +2055,6 @@ domhandler@^4.0.0, domhandler@^4.2.0, domhandler@^4.3.1:
   dependencies:
     domelementtype "^2.2.0"
 
-dompurify@^1.0.8:
-  version "1.0.11"
-  resolved "https://registry.npmmirror.com/dompurify/-/dompurify-1.0.11.tgz#fe0f4a40d147f7cebbe31a50a1357539cfc1eb4d"
-  integrity sha512-XywCTXZtc/qCX3iprD1pIklRVk/uhl8BKpkTxr+ZyMVUzSUg7wkQXRBp/euJ5J5moa1QvfpvaPQVP71z1O59dQ==
-
 domutils@^2.5.2, domutils@^2.8.0:
   version "2.8.0"
   resolved "https://registry.npmmirror.com/domutils/-/domutils-2.8.0.tgz#4437def5db6e2d1f5d6ee859bd95ca7d02048135"
@@ -3748,15 +3743,10 @@ jquery@2.x:
   resolved "https://registry.npmmirror.com/jquery/-/jquery-2.2.4.tgz#2c89d6889b5eac522a7eea32c14521559c6cbf02"
   integrity sha512-lBHj60ezci2u1v2FqnZIraShGgEXq35qCzMv4lITyHGppTnA13rwR0MgwyNJh9TnDs3aXUvd1xjAotfraMHX/Q==
 
-jquery@^3.0.0, jquery@^3.4.1:
-  version "3.6.1"
-  resolved "https://registry.npmmirror.com/jquery/-/jquery-3.6.1.tgz#fab0408f8b45fc19f956205773b62b292c147a16"
-  integrity sha512-opJeO4nCucVnsjiXOE+/PcCgYw9Gwpvs/a6B1LL/lQhwWwpbVEVYDZ1FokFr8PRc7ghYlrFPuyHuiiDNTQxmcw==
-
-jquery@~3.1.0:
-  version "3.1.1"
-  resolved "https://registry.npmmirror.com/jquery/-/jquery-3.1.1.tgz#347c1c21c7e004115e0a4da32cece041fad3c8a3"
-  integrity sha512-zuiWRmx65Kd1oFGdWLvAjbsumdOBFvs3r1vuqCyKFF79R7exBHNbiNEJ8LR+xkzgfxqBznMD/4Cv6PHXS6mvEw==
+jquery@~2.1.4:
+  version "2.1.4"
+  resolved "https://registry.npmmirror.com/jquery/-/jquery-2.1.4.tgz#228bde698a0c61431dc2630a6a154f15890d2317"
+  integrity sha512-wWR+eCq/T/Qt0NcFyM+QVho0ZVzWxFYANijmSMImXiM5mjr1aOaf4SF0eOEPc92bbK2L2vDpxw3lIszus7eO8Q==
 
 js-base64@^2.1.8, js-base64@^2.1.9:
   version "2.6.4"
@@ -5907,18 +5897,17 @@ signal-exit@^3.0.0:
   resolved "https://registry.npmmirror.com/signal-exit/-/signal-exit-3.0.7.tgz#a9a1767f8af84155114eaabd73f99273c8f59ad9"
   integrity sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==
 
-simditor@^2.3.6:
-  version "2.3.28"
-  resolved "https://registry.npmmirror.com/simditor/-/simditor-2.3.28.tgz#294e86eeae3e0e57255910aac9dd9070cc495628"
-  integrity sha512-nO20L2NZ3LsGZtvX291hd0gHiBLC56Oh/SHTwektM1tNBD35wQ0moFHoQ7Yumt9XoRiZL3aCQT2mv4jcVC3clQ==
+simditor@2.3.6:
+  version "2.3.6"
+  resolved "https://registry.npmmirror.com/simditor/-/simditor-2.3.6.tgz#ba71edc3161fc438466c336c9c10052743403947"
+  integrity sha512-IQqdzgr/aRGx32XkhoNuLnODlrlI6bHnuqg5APtkT7Tt6kxURkX/kKiFG/THjZwDRPh5whBSO3lWsBjGatWyAA==
   dependencies:
-    dompurify "^1.0.8"
-    jquery "^3.4.1"
-    simple-hotkeys "^1.0.3"
-    simple-module "^3.0.3"
-    simple-uploader "^3.0.0"
+    jquery "~2.1.4"
+    simple-hotkeys "~1.0.3"
+    simple-module "~2.0.6"
+    simple-uploader "~2.0.7"
 
-simple-hotkeys@^1.0.3:
+simple-hotkeys@~1.0.3:
   version "1.0.3"
   resolved "https://registry.npmmirror.com/simple-hotkeys/-/simple-hotkeys-1.0.3.tgz#47a5bc35362ca7339611bd09a84fa37818b0bbc6"
   integrity sha512-F1oa1phoHN8OWYqw9z4NhtLiXPLSsqUxdTFhbSUsgY3akcmbOYHYI9V0Lg27qJB5uCpgMSdb/w1vDBdWKObSSw==
@@ -5926,27 +5915,20 @@ simple-hotkeys@^1.0.3:
     jquery "2.x"
     simple-module "~2.0.5"
 
-simple-module@^3.0.3, simple-module@~3.0.0:
-  version "3.0.3"
-  resolved "https://registry.npmmirror.com/simple-module/-/simple-module-3.0.3.tgz#ad52766785d27cd9427ee8645a49e41199725a92"
-  integrity sha512-jSlQus9anldGQJ9hYP5S6ReR6upj60PzwvoNmOyZjdqFmc68pmKH3ChEhsU3lY+AgCczjYNaPPpBkTPu15hcKQ==
-  dependencies:
-    jquery "^3.0.0"
-
-simple-module@~2.0.5:
+simple-module@~2.0.5, simple-module@~2.0.6:
   version "2.0.6"
   resolved "https://registry.npmmirror.com/simple-module/-/simple-module-2.0.6.tgz#cec8250325f8c7f575f4aa75c919b38396a6037b"
   integrity sha512-uyGIeOVlGZxOhADL6anB/GAq/XvmFe0hdgckQWrQ+bUwTuKMI5O1jz9i9/nNSdVzuwHaS/eMXaJiSz0JJgNyKA==
   dependencies:
     jquery "2.x"
 
-simple-uploader@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npmmirror.com/simple-uploader/-/simple-uploader-3.0.0.tgz#c09f706f1cfcbea1fe780e35759a683b1336d4d1"
-  integrity sha512-7z7lm+iP1mmSF0zPCPU4zvhwNSVomYtvpkS47XMC04OxKEXjniQ4QYzpnFI76zfDGbs+bZTC+Yi1DQY6uZM1HQ==
+simple-uploader@~2.0.7:
+  version "2.0.8"
+  resolved "https://registry.npmmirror.com/simple-uploader/-/simple-uploader-2.0.8.tgz#5fc4106c6d968b0b353293e3b16094aafde957ba"
+  integrity sha512-2tDHjgjqCyPsB9+9lu5m7lE0WnerfSfzNK5x0Cwd1JyuCi6I4Q4/HIcVJ9+2oAvBMLsMQCWBm8xiMXADJtAPBQ==
   dependencies:
-    jquery "~3.1.0"
-    simple-module "~3.0.0"
+    jquery "2.x"
+    simple-module "~2.0.5"
 
 slash@^1.0.0:
   version "1.0.0"
